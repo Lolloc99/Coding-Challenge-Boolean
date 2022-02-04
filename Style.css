@@ -1,0 +1,95 @@
+body {
+  background-image: url(Img/background.jpg);
+  background-size: cover;
+}
+
+/* ↓ Sfondo nero dietro il tutto ↓ */
+#sfondo{
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0, 0.6);
+  margin: auto;
+  padding: 70px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  width: 1100px;
+  height: 750px;
+}
+
+/* ↓ header ↓ */
+.logo {
+  text-align: center;
+}
+
+.strInizio{
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-family:monospace;
+  color: rgb(0, 255, 0);
+  font-size: 30px;
+}
+
+/* ↓ nav ↓ */
+#Futaba {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(0, 255, 0);
+  text-align: center;
+}
+
+/* ↓ Tutti i "section" ↓ */
+.NomeProdotto {
+  display: inline-block;
+  color: white;
+  font-weight: 550;
+  font-family:monospace;
+  font-size: 30px;
+}
+
+.Info {
+  display: inline-block;
+  color: lightgrey;
+  font-weight: 300;
+  font-family:cursive;
+  font-size: 16px;
+}
+
+/* ↓ Barre colorate batteria monopattini ↓ */
+.monopattino {
+  display: inline-block;
+  font-size: 150%;
+  font-family: monospace;
+  font-weight: bolder;
+  width: 600px;
+  height: 25px;
+}
+
+/* ↓ Gino ↓ */
+#giallo {
+  display: block;
+  border-radius: 3px;
+  border-color: #FFBE4F;
+  background-color: #FFBE4F;
+  width: 47%;
+}
+
+/* ↓ Mike ↓ */
+#verde {
+  display: block;
+  border-radius: 3px;
+  border-color: #0ED500;
+  background-color: #0ED500;
+  width: 98%;
+}
+
+/* ↓ Fede ↓ */
+#rosso {
+  display: block;
+  border-radius: 3px;
+  border-color: #FF4949;
+  background-color: #FF4949;
+  width: 24%;
+}
